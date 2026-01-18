@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Rizwan Eating Banana 🐒🍌</title>
+  <title>Rizwan Page 🍌🐒</title>
   <style>
     body, html {
       margin: 0;
@@ -12,30 +12,29 @@
       display: flex;
       justify-content: center;
       align-items: center;
-      background: #f0f8ff;
-      font-family: Arial, sans-serif;
+      background-color: #fff8dc; /* light banana color */
+      font-family: 'Arial', sans-serif;
     }
-    .image-container {
-      text-align: center;
-    }
-    .image-container img {
-      max-width: 90vw;
-      max-height: 90vh;
-      border-radius: 15px;
-      box-shadow: 0 4px 12px rgba(0,0,0,0.4);
-    }
-    .caption {
-      margin-top: 10px;
-      font-size: 2em;
+
+    .text {
+      font-size: 2.5em;
       font-weight: bold;
-      color: #444;
+      color: #ff4500;
+      text-align: center;
+      line-height: 1.5;
+      text-shadow: 2px 2px 5px #aaa;
+    }
+
+    @media (max-width: 600px) {
+      .text {
+        font-size: 1.8em; /* mobile-friendly */
+      }
     }
   </style>
 </head>
 <body>
-  <div class="image-container">
-    <img src="https://i.imgur.com/91V5vL1.jpg" alt="Monkey eating banana">
-    <div class="caption">Monkey enjoying a banana 🐒🍌</div>
+  <div class="text">
+    Rizwan Is eating banana like monkey 🐒🤤🍌
   </div>
 </body>
 </html>
